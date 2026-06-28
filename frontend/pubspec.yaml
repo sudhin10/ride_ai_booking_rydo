@@ -1,0 +1,49 @@
+name: rydo
+description: Rydo — a premium ride-booking app (Flutter) with optional voice navigation.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  http: ^1.2.2
+  socket_io_client: ^2.0.3+1
+
+  # Storage
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+
+  # Maps (OpenStreetMap, no API key required)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Location
+  geolocator: ^13.0.1
+
+  # Accessibility / Voice navigation
+  flutter_tts: ^4.0.2
+  speech_to_text: ^7.0.0
+
+  # Utils
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

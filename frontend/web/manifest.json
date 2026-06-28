@@ -1,0 +1,12 @@
+{
+  "name": "Rydo",
+  "short_name": "Rydo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0E2A47",
+  "theme_color": "#0E2A47",
+  "description": "Book a ride in seconds.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": []
+}
